@@ -284,83 +284,56 @@ ul li:hover{
   width: 300px;
   height: 600px;
   border-style: groove;
-  float: left;
-  color: black;
 }
-.odypost{
+.bodypost{
   width: 700px;
-  height: 800px;
+  height: auto;
   border-style: groove;
-  float: left;
 }
-.pt li{
-  text-decoration: none;
-}
-ul li a{
-  text-decoration: none;
-  color: white;
-}
-.mm{
-  margin-left: 30px;
-  margin-top: 40px;
-}
-.post{
-  width: 680px;
-  height: 130px;
-  border-style: groove;
-  margin-top: 10px;
-  margin-left: 8px;
-}
-.create{
-  width: 675px;
-  height: 20px;
-  border-style: groove;
-  background: #E9DFDF;
-  font-size: 15px;
-  font-weight:bold;
-  font-variant: small-caps;
-
-}
-.post12{
-  width: 675px;
-  height: 65px;
-  border-style: groove;
-
-}
-.image{
-  width: 675px;
-  height: 30px;
-  border-style: groove;
-  background: #E9DFDF;
-}
-  .f{
-    margin-left: 10px;
-    margin-top: 3px;
-  }
-  .su{
-    width: 100px;
-    height: 28px;
-    text-align: center;
-    background: #D1C6C6;
-    color: blue;
-    font-weight: bold;
-    font-size: 17px;
-    padding-top: 4px;
-    border-radius: 7px;
-    cursor: pointer;
-    margin-left: 220px;
-  }
-    .su:hover{
-      background: #82910a;
-    }
 .chat{
   width: 300px;
   height: 600px;
   border-style: groove;
-  float: right;
 }
-.chatp{
-  font-size: 35px;
-  font-variant: small-caps;
-  font-weight: bold;
-}
+ .profile_pic{
+   
+   height: 300px;
+   width: 300px;
+   border: 1px solid black;
+   margin-top: 20px;
+   float: left;
+  
+   
+ }
+ .profile_pic1{
+  height: 300px;
+  width: 300px;
+ }
+
+ .prof_name{
+   height: 300px;
+   width: 800px;
+   margin-top: 20px;
+   border: 1px solid black;
+   float: left;
+   margin-left: 155px;
+   background-image: url("robincover.jpg");
+   
+ }
+
+ .robin_hossen{
+   margin-left: 40%;
+   color: black;
+   float: left;
+ }
+ 
+ .prof-nav{
+   float: left;
+   margin-top: 20px;
+   text-align: center;
+   margin-left: 24%;
+ }
+
+ .pro-btn{
+   padding: 10px 100px;
+ }

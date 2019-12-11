@@ -4,6 +4,16 @@
     <meta charset="utf-8">
     <title>logi</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="main">
@@ -12,20 +22,21 @@
       </div>
       <div class="logdiv">
         <p class="pp"><b>Log In</b></p><br><br>
-        <form class="f1" action="index.html" method="post">
+        <form class="f1" action="log_action.php" method="post">
             <label>Email:</label>
             <input type="text" name="email"class="logemail" /> <br><br>
 
   					<label>password</label>
   					<input type="password" class="logpass"name="pwd" /><br><br>
-            <label><input type="submit" name="log" value="Log In" class="sub" /></label>
-            <label><input type="submit" name="fp" value="Forget password" class="subreg" /></label><br><br>
-            <div class="sigup"><a href="login.html">Sign Up</a>  </div>
+            <label><input type="submit" name="submit" value="Log In" class="sub" /></label>
+            <label><input type="button" onclick="window.location.href='sign_up.php'" name="fp" value="Forget password" class="subreg" /></label><br><br>
+            <label><input type="button" onclick="window.location.href='sign_up.php'" name="sigup" value="Sign Up" class="sigup" /></label>
 
 
         </form>
       </div>
     </div>
+    <div class="error"><?php echo $error ?> </div>
 
   </body>
 </html>
