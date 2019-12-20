@@ -1,9 +1,11 @@
 <?php
+
   include('db_connection.php');
+
   $f_name=$_POST['first_name'];
   $l_name=$_POST['last_name'];
   $email=$_POST['email'];
-  $pass=$_POST['pass'];
+  $pass=md5($_POST['pass']);
   $num=$_POST['num'];
   $bday=$_POST['bday'];
   $gender=$_POST['gender'];
@@ -13,7 +15,8 @@
   $sql="INSERT INTO `user`(`id_u`, `f_name_u`, `l_name_u`, `email_u`, `pwd_u`, `mobile_u`, `b_day_u`, `gender_u`, `country_u`, `interest_u`)
    VALUES (null,'$f_name','$l_name','$email','$pass','$num','$bday','$gender','$country','$interests')";
    if (mysqli_query($conn,$sql)) {
-     header("location:log.html") ;
+     echo '<script>alert("Thanks For Sign Up")</script>';
+ echo "<script>window.location.href ='log.html'</script>";
    }else {
      echo "Error" .mysqli_error($conn);
    }

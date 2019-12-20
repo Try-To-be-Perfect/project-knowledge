@@ -1,0 +1,95 @@
+.cover{
+  width: 1320px;
+  height: 350px;
+  border-style: groove;
+  margin-top: 7px;
+  background: #85929E;
+}
+
+.propic{
+  width: 200px;
+  height: 200px;
+  border-style: groove;
+  margin-top: 145px;
+  float: left;
+}
+.ppedit{
+  width: 90px;
+  height: 20px;
+  margin-top: 180px;
+  margin-left: 52px;
+  border-bottom-left-radius: 95%;
+  border-bottom-right-radius: 95%;
+  border-top-left-radius: 90%;
+  border-top-right-radius: 90%;
+}
+.ppedit a{
+  text-decoration:none;
+  margin-left: 30px;
+  color: #BBADAD;
+  font-family: sans-serif;
+}
+.ppedit a:hover{
+  background: #4B4242;
+}
+.covedit{
+  width: 80px;
+  height: 20px;
+  border-style: groove;
+  float: left;
+  margin-left: 1027px;
+  margin-top: 325px;
+}
+.covedit a{
+  text-decoration:none;
+  margin-left: 30px;
+  color: #BBADAD;
+  font-family: sans-serif;
+}
+.covedit a:hover{
+  background: #4B4242;
+}
+.pronav{
+  width: 1320px;
+  height: 50px;
+  border-style: groove;
+}
+#btn{
+  width: 200px;
+  height: 35px;
+  margin-left: 97px;
+  margin-top: 6px;
+}
+.timelines{
+  width: 1320px;
+  height: auto;
+}
+.timelipost{
+  width: 760px;
+  height: auto;
+  margin-left: 30px;
+}
+.chatpro{
+  width: 300px;
+  height: 600px;
+  border-style: groove;
+  float: right;
+}
+.chatprop{
+  font-size: 35px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+#upbtn{
+
+}
+.profileform{
+  width: 300px
+  height:200px;
+  border-style: groove;
+}
+.proname{
+  width: 200px;
+  height: 80px;
+  border-style: groove;
+}
